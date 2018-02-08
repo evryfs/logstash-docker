@@ -1,3 +1,3 @@
-FROM docker.elastic.co/logstash/logstash:6.2.0
+FROM docker.elastic.co/logstash/logstash:6.2.1
 LABEL maintainer="David J. M. Karlsen <david@davidkarlsen.com>"
 RUN logstash-plugin install logstash-input-lumberjack
