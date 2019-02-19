@@ -1,6 +1,6 @@
 Pre-baked image of logstash with plugins installed:
 * [Lumberjack](https://www.elastic.co/guide/en/logstash/current/plugins-inputs-lumberjack.html)
-
+* [Syslog output](https://www.elastic.co/guide/en/logstash/current/plugins-outputs-syslog.html)
 
 [![Docker Stars](https://img.shields.io/docker/stars/evryfs/logstash-docker.svg)]()
 [![Docker Pulls](https://img.shields.io/docker/pulls/evryfs/logstash-docker.svg)]()
