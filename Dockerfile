@@ -1,4 +1,4 @@
-FROM docker.elastic.co/logstash/logstash:7.4.0
+FROM docker.elastic.co/logstash/logstash:6.8.2
 LABEL maintainer="David J. M. Karlsen <david@davidkarlsen.com>"
 RUN	logstash-plugin install logstash-input-lumberjack && \
 	logstash-plugin install logstash-output-syslog
